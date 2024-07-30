@@ -1,8 +1,9 @@
-package main 
+package main
 
-import(
+import (
 	"JIFUNZE/backend"
 )
+
 func main() {
 	backend.StartServer()
 }
