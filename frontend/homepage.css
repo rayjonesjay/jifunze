@@ -1,13 +1,27 @@
 body {
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(199, 190, 190);
+}
+header{
+    background-color: rgb(238, 206, 157);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    margin-right: 80px;
+}
+nav a:hover {
+    color: black;
 }
 h1 {
     color: rgb(6, 17, 17);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-}
-header{
-    background-color: rgb(238, 206, 157);
+    display: flex;
+    justify-content: center;
 }
 h2 {
     color: rgb(3, 3, 2);
