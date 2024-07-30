@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(231, 230, 230);
+}
+h1 {
+    color: rgb(6, 17, 17);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+header{
+    background-color: rgb(238, 206, 157);
+}
+h2 {
+    color: rgb(3, 3, 2);
+    font-family: inherit;
+    font-size: 30px;
+    margin-right: 10px;
+    display: flex;
+    margin-left: 100px;
+    
+}
+button {
+    color: rgb(1, 71, 48);
+    font-family: Geneva;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: rgb(196, 152, 152);
+    width: 350px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 1s;
+}
+button:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    background-color: blanchedalmond;
+}
+button:active{
+    background-color: rgb(250, 205, 109);
+}
