@@ -22,7 +22,7 @@ func StartServer() {
 	if err != nil {
 		log.Fatalf("failed to load blockchain: %v", err)
 	}
-
+	
 	// handlers for various routes
 	http.HandleFunc("/signup", handleSignUp)
 
