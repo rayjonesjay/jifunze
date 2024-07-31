@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jifunze.edu</title>
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="Home">Home</a>
-            <a href="About">About</a>
-            <a href="Courses">Courses</a>
-            <a href="Feedback">Feedback</a>
-            <a href="Certificates">Certificates</a>
-        </nav>
+    <header class="header">
+        <section class="flex">
+            <a href="homepage.html" class="logo">Jifunze</a>
+    
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="search courses..."
+                required maxlength="700">
+                <button type="submit" class="fas fa-search" name="search_box"></button>
+            </form>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+            
+        </section>
     </header>
-    <div>
-        <h1>Welcome To Jifunze.Edu</h1>
-    </div>
-    <div>
-        <h2>Courses</h2>
-        <div>
-        <button>Mathematics</button>
-        <button>English</button>
-        <button>Science</button>
-        </div>
-    </div>
+    <script src="frontend/script.js"></script>
 </body>
 </html>

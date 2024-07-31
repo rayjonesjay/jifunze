@@ -1,4 +1,87 @@
-body {
+*{
+    font-family: sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: bisque;
+}
+section{
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: white;
+    border-bottom: 1 rem solid rgb(254, 147, 147);
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+.header .flex{
+    padding: 1.5 rem 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .flex .logo {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bolder;
+}
+.header .flex .search-form {
+    width: 50rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: rgb(254, 213, 159);
+}
+.header .flex .search-form input {
+    width: 100%;
+    background: none;
+    font-size: 2rem;
+    color: black;
+}
+.header .flex .search-form button{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    background: none;
+}
+.header .flex .search-form button:hover{
+    color: grey;
+}
+
+.header .flex .icons div{
+    font-size: 2rem;
+    color: black;
+    border-radius: .5rem;
+    height: 4.5rem;
+    cursor: pointer;
+    width: 4.5rem;
+    line-height: 4.4rem;
+    background-color:  rgb(254, 213, 159);;
+    text-align: center;
+    margin-left: .5rem;
+}
+
+.header .flex .icons div:hover{
+   background-color: black;
+   color: white; 
+}
+#search-btn{
+    display: none;
+}
+/* body {
     background-color: rgb(199, 190, 190);
 }
 header{
@@ -55,4 +138,4 @@ button:hover{
 }
 button:active{
     background-color: rgb(250, 205, 109);
-}
+} */
