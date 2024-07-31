@@ -14,7 +14,7 @@ import TwitterIcon from '@mui/icons-material/X';
 import Copyright from "./Copyright";
 
 const logoStyle = {
-  width: '140px',
+  width: '40px',
   height: 'auto',
 };
 
@@ -50,9 +50,7 @@ export default function Footer() {
           <Box sx={{ width: { xs: '100%', sm: '60%' } }}>
             <Box sx={{ ml: '-15px' }}>
               <img
-                src={
-                  '/favicon.ico'
-                }
+                src={'/favicon.ico'}
                 style={logoStyle}
                 alt="logo of sitemark"
               />
