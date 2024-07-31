@@ -8,7 +8,6 @@ import { createClient } from '@supabase/supabase-js'
 import {supabase_anon_key, supabase_url} from "../const/constants";
 const supabase = createClient(supabase_url, supabase_anon_key)
 
-
 const Courses = () => {
     const [courses, setCourses] = useState([]);
 
@@ -25,7 +24,7 @@ const Courses = () => {
                 setCourses(courses)
             }
         }
-        getData();
+        getData().then();
 
         // Fetch courses from API
         // axios.get('/api/courses')
