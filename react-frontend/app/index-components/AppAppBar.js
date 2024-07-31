@@ -14,7 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ToggleColorMode from '../components/ToggleColorMode';
 
 const logoStyle = {
-    width: '140px',
+    width: '40px',
     height: 'auto',
     cursor: 'pointer',
 };
@@ -99,12 +99,9 @@ function AppAppBar({mode, toggleColorMode}) {
                             }}
                         >
                             <img
-                                src={
-                                    // 'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e6faf73568658154dae_SitemarkDefault.svg'
-                                    '/favicon.ico'
-                                }
+                                src={'/favicon.ico'}
                                 style={logoStyle}
-                                alt="logo of sitemark"
+                                alt="logo of jifunze"
                             />
                             <Box sx={{display: {xs: 'none', md: 'flex'}}}>
                                 {menuItems.map((menuItem) => (
@@ -132,7 +129,7 @@ function AppAppBar({mode, toggleColorMode}) {
                                 variant="text"
                                 size="small"
                                 component="a"
-                                href="/signin"
+                                href="/login"
                             >
                                 Sign in
                             </Button>
@@ -202,7 +199,7 @@ function AppAppBar({mode, toggleColorMode}) {
                                             color="primary"
                                             variant="outlined"
                                             component="a"
-                                            href="/signin"
+                                            href="/login"
                                             sx={{width: '100%'}}
                                         >
                                             Sign in

@@ -63,11 +63,8 @@ export default function Hero() {
             sx={{ alignSelf: 'center', width: { sm: '100%', md: '80%' } }}
           >
               At {ProjectName}, we believe that education is the cornerstone of progress.
-              Our mission is to democratize learning, making high-quality education accessible
-              to everyone, everywhere. With a team of world-class instructors and
-              a diverse array of courses, we're not just an e-learning platform –
-              we're your partner in personal and professional growth.
-              <br/>
+              Our mission is to democratize learning, making high-quality education accessible to everyone, everywhere. With a team of world-class instructors and a diverse array of courses, we're not just an e-learning platform – we're your partner in personal and professional growth.
+              {/*<br/>*/}
               Ready to Start Your Learning Adventure? Join {ProjectName} Today!
           </Typography>
           <Stack
